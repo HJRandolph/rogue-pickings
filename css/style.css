@@ -1,0 +1,173 @@
+/***** MY CSS *****/
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+#wrapper {
+    margin: auto;
+    padding: 5px;
+    width: 1200px;
+}
+
+.third-width {
+    width: 370px;
+    height: 200px;
+}
+/***** NAVIGATION BAR *****/
+nav {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #77a466;
+}
+
+nav a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkseagreen;
+    text-decoration: underline;
+    -moz-text-decoration-color: darkgreen; /* Code for Firefox */
+    text-decoration-color: darkgreen;
+}
+
+
+nav h1 {
+    padding-right: 240px;
+}
+
+nav span {
+    color: #000000;
+}
+
+nav ul, li {
+    list-style: none;
+    font-weight: 700;
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+nav #head {
+    float: left;
+}
+
+nav #menu {
+    float: right;
+}
+
+/***** TOP SECTION *****/
+#top {
+    clear: both;
+}
+
+#beans-img {
+    padding: none; 
+}
+
+#top-img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+#top h2 {
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+#top #greet  {
+    color: #77a466;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#top #welcome {
+
+    font-size: 14px;
+    line-height: 1.65rem;
+}
+
+/***** LOWER SECTION *****/
+#lower {
+    border-top: 1px solid lightgray;
+ 
+}
+.highlight {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#lower p {
+    margin-top: 25px;
+    margin-left: 35px;
+}
+#lower h2 {
+  margin-top: 25px;
+  
+}
+
+#reviews h2, #contact h2 {
+  margin-left: 35px;
+}
+
+#reviews {
+  padding-right: 40px;
+}
+
+#specials  {
+    float: left;  
+    line-height: 1.25rem;
+}
+
+#lower #specials p {
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+
+#lower #specials .taste {
+    color: #77a466;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+#reviews  {
+    float: left;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    font-size: 14px;
+    line-height: 1.25rem;
+
+}
+
+#contact  {
+    float: left;
+    font-size: 14px;
+
+    line-height: 1.25rem;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    clear:both;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@font-face {
+	font-family: 'Wisdom Script';
+	src: url(css/wisdom-script.otf)
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Wisdom Script', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: lowercase;
+}
